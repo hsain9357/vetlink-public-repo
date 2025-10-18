@@ -1,0 +1,53 @@
+-- WARNING: This schema is for context only and is not meant to be run.
+-- Table order and constraints may not be valid for execution.
+
+CREATE TABLE public.chats (
+  id uuid NOT NULL DEFAULT uuid_generate_v4(),
+  sender_id uuid NOT NULL,
+  receiver_id uuid NOT NULL,
+  message text NOT NULL,
+  created_at timestamp with time zone DEFAULT now(),
+  CONSTRAINT chats_pkey PRIMARY KEY (id),
+  CONSTRAINT chats_sender_id_fkey FOREIGN KEY (sender_id) REFERENCES public.profiles(id),
+  CONSTRAINT chats_receiver_id_fkey FOREIGN KEY (receiver_id) REFERENCES public.profiles(id)
+);
+CREATE TABLE public.clinics (
+  id uuid NOT NULL DEFAULT uuid_generate_v4(),
+  name text NOT NULL,
+  address text,
+  latitude double precision,
+  longitude double precision,
+  contact_info text,
+  services text,
+  images ARRAY,
+  created_at timestamp with time zone DEFAULT now(),
+  CONSTRAINT clinics_pkey PRIMARY KEY (id)
+);
+CREATE TABLE public.profiles (
+  id uuid NOT NULL,
+  user_type text NOT NULL CHECK (user_type = ANY (ARRAY['veterinarian'::text, 'pet_owner'::text, 'company_office'::text])),
+  created_at timestamp with time zone DEFAULT now(),
+  name text,
+  specialization text,
+  working_hours text,
+  location_latitude double precision,
+  location_longitude double precision,
+  avatar_url text,
+  services text,
+  rating numeric DEFAULT 0,
+  review_count integer DEFAULT 0,
+  updated_at timestamp with time zone DEFAULT now(),
+  CONSTRAINT profiles_pkey PRIMARY KEY (id),
+  CONSTRAINT profiles_id_fkey FOREIGN KEY (id) REFERENCES auth.users(id)
+);
+CREATE TABLE public.reviews (
+  id uuid NOT NULL DEFAULT uuid_generate_v4(),
+  reviewer_id uuid NOT NULL,
+  reviewed_vet_id uuid NOT NULL,
+  rating integer NOT NULL CHECK (rating >= 1 AND rating <= 5),
+  comment text,
+  created_at timestamp with time zone DEFAULT now(),
+  CONSTRAINT reviews_pkey PRIMARY KEY (id),
+  CONSTRAINT reviews_reviewed_vet_id_fkey FOREIGN KEY (reviewed_vet_id) REFERENCES public.profiles(id),
+  CONSTRAINT reviews_reviewer_id_fkey FOREIGN KEY (reviewer_id) REFERENCES public.profiles(id)
+);

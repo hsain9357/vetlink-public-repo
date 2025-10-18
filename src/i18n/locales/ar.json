@@ -1,0 +1,145 @@
+{
+  "welcome": {
+    "title": "مرحباً بك في VetLink!",
+    "message": "شريكك الموثوق لرعاية الحيوانات الأليفة.",
+    "login_button": "تسجيل الدخول",
+    "signup_button": "إنشاء حساب",
+    "choose_language": "اختيار اللغة"
+  },
+  "login": {
+    "title": "تسجيل الدخول",
+    "email_placeholder": "البريد الإلكتروني",
+    "password_placeholder": "كلمة المرور",
+    "login_button": "تسجيل الدخول",
+    "no_account": "ليس لديك حساب؟",
+    "create_account": "إنشاء حساب"
+  },
+  "account_type": {
+    "title": "اختر نوع الحساب",
+    "veterinarian": "طبيب بيطري",
+    "pet_owner": "مربي",
+    "company_office": "شركة أو مكتب"
+  },
+  "signup": {
+    "title": "التسجيل",
+    "create_account_button": "إنشاء حساب",
+    "already_have_account": "هل لديك حساب بالفعل؟"
+  },
+  "ai_chat": {
+    "tab_title": "الدردشة بالذكاء الاصطناعي",
+    "vet_clinic": "العيادة البيطرية",
+    "ai_response": "الرد الآلي البيطري",
+    "how_to_deal_with_fever": "كيفية التعامل مع ارتفاع حرارة الخيول؟",
+    "sample_ai_response": "البوكيت منطقة حساسة جداً للخيول، ومن المهم الاعتناء بها. إذا لاحظت أي تغييرات غير عادية، استشر طبيب بيطري على الفور.",
+    "enter_message": "أدخل رسالة",
+    "typing": "جاري الكتابة...",
+    "send": "إرسال",
+    "chat_session_not_initialized": "لم يتم تهيئة جلسة الدردشة.",
+    "error_sending_message_to_ai": "خطأ في إرسال الرسالة إلى الذكاء الاصطناعي:",
+    "could_not_get_response": "تعذر الحصول على رد."
+  },
+  "chat_list": {
+    "tab_title": "الدردشات",
+    "loading_chats": "جاري تحميل الدردشات...",
+    "no_chats": "لا توجد دردشات نشطة."
+  },
+  "subscription": {
+    "title": "خطط الاشتراك",
+    "free_plan_title": "الخطة المجانية (لمربي الحيوانات)",
+    "free_plan_description": "الوصول إلى الميزات الأساسية، ومساعد الذكاء الاصطناعي لنصائح رعاية الحيوانات الأليفة.",
+    "free": "مجاني",
+    "current_plan": "الخطة الحالية",
+    "vet_monthly_title": "طبيب بيطري شهري",
+    "vet_monthly_description": "وصول كامل إلى استشارات الذكاء الاصطناعي الطبية، وقائمة العيادات.",
+    "vet_monthly_price": "29.99 دولار/شهر",
+    "vet_annual_title": "طبيب بيطري سنوي",
+    "vet_annual_description": "وفر مع الفواتير السنوية. وصول كامل إلى استشارات الذكاء الاصطناعي الطبية، وقائمة العيادات.",
+    "vet_annual_price": "299.99 دولار/سنة",
+    "company_monthly_title": "شركة/مكتب شهري",
+    "company_monthly_description": "روّج لخدماتك، تحليلات متقدمة، قائمة ذات أولوية.",
+    "company_monthly_price": "99.99 دولار/شهر",
+    "company_annual_title": "شركة/مكتب سنوي",
+    "company_annual_description": "وفر مع الفواتير السنوية. روّج لخدماتك، تحليلات متقدمة، قائمة ذات أولوية.",
+    "company_annual_price": "999.99 دولار/سنة",
+    "subscribe": "اشترك"
+  },
+  "map": {
+    "loading_location": "جاري تحميل موقعك...",
+    "location_permission_denied": "تم رفض إذن الموقع",
+    "enable_location_services": "يرجى تمكين خدمات الموقع لهذا التطبيق للعثور على العيادات القريبة.",
+    "your_location": "موقعك",
+    "tab_title": "الخريطة",
+    "nearby_clinics": "العيادات القريبة",
+    "clinic_description": "عيادة بيطرية",
+    "nearby_vets": "الأطباء البيطريون القريبون",
+    "failed_to_load_vets": "فشل تحميل الأطباء البيطريين.",
+    "location_not_available": "الموقع غير متاح",
+    "details": "التفاصيل",
+    "go_to_location": "الانتقال إلى الموقع",
+    "placeholder_question_mark": "؟"
+  },
+  "home": {
+    "tab_title": "الرئيسية",
+    "welcome_title": "مرحباً بك في VetLink!",
+    "welcome_subtitle": "شريكك الموثوق لرعاية الحيوانات الأليفة والخدمات البيطرية.",
+    "get_started": "ابدأ الآن"
+  },
+  "profile": {
+    "tab_title": "الملف الشخصي"
+  },
+  "subscription": {
+    "tab_title": "الاشتراكات"
+  },
+  "vet_profile": {
+    "edit_title": "  تعديل الملف" ,
+    "name": "الاسم",
+    "name_placeholder": "أدخل اسمك",
+    "specialization": "التخصص",
+    "specialization_placeholder": "مثال: حيوانات صغيرة، خيول، جراحة",
+    "working_hours": "ساعات العمل",
+    "working_hours_placeholder": "مثال: من الاثنين إلى الجمعة 9 صباحًا - 5 مساءً",
+    "location": "الموقع",
+    "latitude_placeholder": "خط العرض",
+    "longitude_placeholder": "خط الطول",
+    "get_current_location": "الحصول على الموقع الحالي",
+    "save_profile": "حفظ الملف الشخصي",
+    "sign_out": "تسجيل الخروج",
+    "dark_mode": "الوضع الداكن",
+    "language": "اللغة"
+  },
+  "vet_profile_detail": {
+    "title": "ملف الطبيب البيطري",
+    "reviews": "المراجعات",
+    "specialization": "التخصص",
+    "working_hours": "ساعات العمل",
+    "location": "الموقع",
+    "chat_with_vet": "الدردشة مع الطبيب البيطري",
+    "leave_review": "ترك مراجعة"
+  },
+  "general": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "permission_denied": "تم رفض الإذن",
+    "enable_location_services_short": "يرجى تمكين خدمات الموقع.",
+    "enable_location_services_long": "يرجى تمكين خدمات الموقع لاستخدام هذه الميزة.",
+    "profile_saved": "تم حفظ الملف الشخصي!",
+    "you_selected": "لقد اخترت: ",
+    "no_active_user_session": "لم يتم العثور على جلسة مستخدم نشطة.",
+    "check_email_confirmation": "تحقق من بريدك الإلكتروني للحصول على رابط التأكيد!"
+  },
+  "navigation": {
+    "test_map": "خريطة الاختبار",
+    "edit_profile": "تعديل الملف الشخصي",
+    "veterinarian_profile": "ملف الطبيب البيطري",
+    "chat": "الدردشة",
+    "home": "الرئيسية"
+  },
+  "test_map_screen": {
+    "vet_clinic_1": "عيادة بيطرية 1",
+    "open_hours": "مفتوح من 9 صباحًا - 5 مساءً",
+    "pet_store": "متجر حيوانات أليفة",
+    "pet_supplies": "مجموعة واسعة من مستلزمات الحيوانات الأليفة",
+    "dog_park": "حديقة الكلاب",
+    "evening_walks": "مثالي للمشي المسائي"
+  }
+}

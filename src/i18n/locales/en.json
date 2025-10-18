@@ -1,0 +1,145 @@
+{
+  "welcome": {
+    "title": "Welcome to VetLink!",
+    "message": "Your trusted partner for pet care.",
+    "login_button": "Login",
+    "signup_button": "Sign Up",
+    "choose_language": "Choose Language"
+  },
+  "login": {
+    "title": "Login",
+    "email_placeholder": "Email",
+    "password_placeholder": "Password",
+    "login_button": "Login",
+    "no_account": "Don't have an account?",
+    "create_account": "Create Account"
+  },
+  "account_type": {
+    "title": "Choose Account Type",
+    "veterinarian": "Veterinarian",
+    "pet_owner": "Pet Owner",
+    "company_office": "Company or Office"
+  },
+  "signup": {
+    "title": "Sign Up",
+    "create_account_button": "Create Account",
+    "already_have_account": "Already have an account?"
+  },
+  "ai_chat": {
+    "tab_title": "AI Chat",
+    "vet_clinic": "Vet Clinic",
+    "ai_response": "AI Response",
+    "how_to_deal_with_fever": "How to deal with a fever and high temperature in a horse?",
+    "sample_ai_response": "Pocket is a very sensitive area for horses, and it is important to take care of it. If you notice any unusual changes, consult a veterinarian immediately.",
+    "enter_message": "Enter a message",
+    "typing": "Typing...",
+    "send": "Send",
+    "chat_session_not_initialized": "Chat session not initialized.",
+    "error_sending_message_to_ai": "Error sending message to AI:",
+    "could_not_get_response": "Could not get a response."
+  },
+  "chat_list": {
+    "tab_title": "Chats",
+    "loading_chats": "Loading chats...",
+    "no_chats": "No active chats."
+  },
+  "subscription": {
+    "title": "Subscription Plans",
+    "free_plan_title": "Free Plan (Pet Owners)",
+    "free_plan_description": "Access basic features, AI assistant for pet care tips.",
+    "free": "FREE",
+    "current_plan": "Current Plan",
+    "vet_monthly_title": "Veterinarian Monthly",
+    "vet_monthly_description": "Full access to AI medical consultations, clinic listing.",
+    "vet_monthly_price": "$29.99/month",
+    "vet_annual_title": "Veterinarian Annual",
+    "vet_annual_description": "Save with annual billing. Full access to AI medical consultations, clinic listing.",
+    "vet_annual_price": "$299.99/year",
+    "company_monthly_title": "Company/Office Monthly",
+    "company_monthly_description": "Promote your services, advanced analytics, priority listing.",
+    "company_monthly_price": "$99.99/month",
+    "company_annual_title": "Company/Office Annual",
+    "company_annual_description": "Save with annual billing. Promote your services, advanced analytics, priority listing.",
+    "company_annual_price": "$999.99/year",
+    "subscribe": "Subscribe"
+  },
+  "map": {
+    "loading_location": "Loading your location...",
+    "location_permission_denied": "Location Permission Denied",
+    "enable_location_services": "Please enable location services for this app to find nearby clinics.",
+    "your_location": "Your Location",
+    "nearby_clinics": "Nearby Clinics",
+    "clinic_description": "Veterinary Clinic",
+    "tab_title": "Map",
+    "nearby_vets": "Nearby Vets",
+    "failed_to_load_vets": "Failed to load veterinarians.",
+    "location_not_available": "Location Not Available",
+    "details": "Details",
+    "go_to_location": "Go to location",
+    "placeholder_question_mark": "?"
+  },
+  "home": {
+    "tab_title": "Home",
+    "welcome_title": "Welcome to VetLink!",
+    "welcome_subtitle": "Your trusted partner for pet care and veterinary services.",
+    "get_started": "Get Started"
+  },
+  "profile": {
+    "tab_title": "Profile"
+  },
+  "subscription": {
+    "tab_title": "Subscription"
+  },
+  "vet_profile": {
+    "edit_title": "Edit  Profile",
+    "name": "Name",
+    "name_placeholder": "Enter your name",
+    "specialization": "Specialization",
+    "specialization_placeholder": "e.g., Small Animals, Equine, Surgery",
+    "working_hours": "Working Hours",
+    "working_hours_placeholder": "e.g., Mon-Fri 9 AM - 5 PM",
+    "location": "Location",
+    "latitude_placeholder": "Latitude",
+    "longitude_placeholder": "Longitude",
+    "get_current_location": "Get Current Location",
+    "save_profile": "Save Profile",
+    "sign_out": "Sign Out",
+    "dark_mode": "Dark Mode",
+    "language": "Language"
+  },
+  "vet_profile_detail": {
+    "title": "Veterinarian Profile",
+    "reviews": "Reviews",
+    "specialization": "Specialization",
+    "working_hours": "Working Hours",
+    "location": "Location",
+    "chat_with_vet": "Chat with Vet",
+    "leave_review": "Leave a Review"
+  },
+  "general": {
+    "loading": "Loading...",
+    "error": "Error",
+    "permission_denied": "Permission Denied",
+    "enable_location_services_short": "Enable location services.",
+    "enable_location_services_long": "Enable location services to use this feature.",
+    "profile_saved": "Profile saved!",
+    "you_selected": "You selected: ",
+    "no_active_user_session": "No active user session found.",
+    "check_email_confirmation": "Check your email for the confirmation link!"
+  },
+  "navigation": {
+    "test_map": "Test Map",
+    "edit_profile": "Edit Profile",
+    "veterinarian_profile": "Veterinarian Profile",
+    "chat": "Chat",
+    "home": "Home"
+  },
+  "test_map_screen": {
+    "vet_clinic_1": "Vet Clinic 1",
+    "open_hours": "Open 9am - 5pm",
+    "pet_store": "Pet Store",
+    "pet_supplies": "Wide variety of pet supplies",
+    "dog_park": "Dog Park",
+    "evening_walks": "Perfect for evening walks"
+  }
+}
